@@ -5,14 +5,14 @@ let fs = require('fs')
 let package = require('./package.json')
 const CFonts = require('cfonts')
 CFonts.say('Lightweight\nWhatsApp Bot', {
-  font: 'chrome',
+  colors: ['#f2aa4c'],
+  font: 'block',
   align: 'center',
-  gradient: ['red', 'magenta']
 })
 CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
+  colors: ['#f2aa4c'],
   font: 'console',
   align: 'center',
-  gradient: ['red', 'magenta']
 })
 
 var isRunning = false
