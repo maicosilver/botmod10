@@ -12,7 +12,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/maicosilver/botmod10
+git clone https://github.com/maicosilver/botmod10 --branch termux 
+
 cd botmod10
 npm install
 npm update
